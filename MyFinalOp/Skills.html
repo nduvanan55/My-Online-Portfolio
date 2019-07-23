@@ -1,0 +1,102 @@
+<!doctype html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Ncedo Nduvana</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  nav{
+    clear: right;
+    height: 50px;
+    background-color: darkgray;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+    float: left;
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+  nav ul li a{
+    padding-right: 10px;
+    text-decoration: none;
+     font-size: 13px;
+      padding-right: 10px;
+  color:#55cde3;
+  }
+  h2{
+    color:red;
+    text-align: center;
+    font-size: 40px;
+  }
+  #main ul li{
+    padding-top: 50px;
+    font-size: 20px;
+    color:red;
+  }
+  html,body{
+    height: 100%;
+  }
+  #container{
+    min-height: 100%;
+  }
+  #footer{
+    background-color: darkgray;
+    position: relative;
+    height: 50px;
+    margin-top: -50px;
+    clear:both;
+    text-align: center;
+    font-size: 15px;
+  }
+   @media only screen and (min-width:768px){
+     nav ul li a{
+       font-size: 40px;
+       padding-right: 10px;
+     }
+     h2{
+       clear:left;
+       text-align: center;
+       font-size: 70px;
+     }
+     #main ul li{
+       font-size: 40px;
+     }
+     #footer{
+       font-size: 20px;
+     }
+   }
+</style>
+  <body>
+    <div id="container">
+      <header>
+      <nav>
+        <ul>
+            <li><a href="index.html">HOME</a> </li>
+            <li><a href="Skills.html">SKILLS</a> </li>
+            <li><a href="About.html">ABOUT</a> </li>
+            <li><a href="contact.html">CONTACT</a> </li>
+          </ul>
+        </nav>
+      </header>
+      <hr>
+      <main id = "main">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Software Development(Java)</li>
+            <li>Web Development (html,css,javascript</li>
+            <li>Microsoft Office suite</li>
+            <li>Connecting and Configuring Networks devices</li>
+        </ul>
+      </main>
+    </div>
+<footer id="footer">My First Project</footer>
+  </body>
+</html>

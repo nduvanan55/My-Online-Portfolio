@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>contact</title>
+</head>
+ <style>
+    *{
+      margin:0;
+      padding:0;
+    }
+	  html,body{
+      background-color: lightgrey;
+      height: 100%;
+    }
+    #container{
+      height: 100%;
+    }
+	  nav{
+		  width: 100%;
+		  height: 100px;
+		  background-color:darkgrey;
+	  }
+    ul{
+
+    }
+    ul li{
+      padding-left: 50px;
+      padding-right: 20px;
+  list-style:none;
+  display:inline-block;
+  float:left;
+line-height:100px;
+    }
+    ul li a{
+		display: block;
+      text-decoration:none;
+      font-size:40px;
+      font-family:arial;
+    color:#55cde3;
+	   padding-right: 10px;
+    }
+	  ul li a:hover {
+		color: red;
+    }
+    form{
+      padding-top: 20%;
+    }
+    label{
+      font-size: 50px;
+    }
+    input{
+      height: 50px;
+      width: 70%;
+    }
+    #names,#emailaddr{
+      margin-left: 55px;
+    }
+    textarea{
+      width: 70%;
+      height: 200px;
+      margin-left: 5px;
+    }
+    button{
+      height: 150px;
+      width: 30%;
+      font-size: 70px;
+      margin-top: 50px;
+    }
+    #footer{
+      height: 100px;
+      font-size: 50px;
+      line-height:100px;
+      margin-top:-100px;
+      text-align: center;
+      background-color: darkgrey;
+    }
+    @media only screen and (min-width:1034px){
+      form{
+        padding-top: 2%;
+      }
+      textarea{
+        height: 100px;
+        font-size: 14px;
+      }
+      button{
+        height: 80px;
+        width: 20%;
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    textarea{
+      width: 50%;
+      height: 200px;
+      margin-left: 5px;
+    }
+    input{
+      height: 50px;
+      width: 50%;
+    }
+    #footer{
+      font-size: 15px;
+    }
+
+  </style>
+<body>
+  <div id="container">
+	 <nav>
+      <ul>
+        <li><a href="index.html">Home</a> </li>
+        <li><a href="Skills.html">Skills</a> </li>
+        <li><a href="About.html">About</a> </li>
+        <li><a href="contact.html">Contact</a> </li>
+      </ul>
+    </nav>
+    <center><form id="form">
+      <fieldset>
+        <label for="Name">Name</label><input id="names"></input><br><br>
+        <label for="EmailAddr">Email</label><input id="emailaddr"></input><br><br>
+        <label for="Message">Message</label><textarea></textarea><br><br>
+      </fieldset>
+    <center><button type="button" name="Submit">Submit</button></center>
+    </form></center>
+  </div>
+  <footer id ="footer">My First Ptoject</footer>
+</body>
+</html>
