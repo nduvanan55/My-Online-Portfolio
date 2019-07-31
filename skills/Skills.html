@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>My Skills</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		html,body{
+			background-color: lightgray;
+			height: 100%;
+		}
+		#container{
+			min-height: 100%;
+		}
+		nav{
+			height: 50px;
+			background-color: darkgray;
+		}
+		nav ul{
+
+		}
+		nav ul li{
+			list-style:none;
+			display:inline-block;
+			line-height:60px;
+		}
+		nav ul li a{
+			text-decoration: none;
+			padding-right: 15px;
+			font-size: 20px;
+			color:black;
+		}
+		nav ul li a:hover{
+			color:white;
+		}
+		html,body{
+			height: 100%;
+		}
+		h2{
+			clear:left;
+			text-align: center;
+			color:white;
+			font-size: 50px;
+		}
+		h2:hover{
+			color: black;
+		}
+		#main ul li{
+			padding-left: 20px;
+    		font-size: 25px;
+    		color:white;
+   		padding-top:50px;
+		}
+		#main ul li:hover{
+			
+    		color:black;
+   			padding-top: 50px;
+		}
+		#footer{
+			background-color: darkgray;
+			position: relative;
+			height:15px;
+    		margin-top: -15px;
+    		clear:both;
+    		text-align: center;
+    		font-size: 15px;
+		}
+		@media only screen and (min-width:768px){
+			nav ul li a{
+				font-size: 40px;
+       			padding-right: 50px;
+			}
+			h2{
+				clear:left;
+				text-align: center;
+				font-size: 70px;
+			}
+			#main ul li{
+				font-size: 50px;
+			}
+			#footer{
+				height:30px;
+				margin:-30px;
+				font-size: 30px;
+			}
+		}
+		@media only screen and (min-width:1000px){
+			nav ul li a{
+				font-size: 40px;
+				padding-right: 120px;
+			}
+		}
+		@media only screen and (min-width:1300px){
+			nav ul li a{
+				font-size: 40px;
+				padding-right: 250px;
+			}
+		}
+	</style>
+	<body>
+		<div id="container">
+			<header>
+				<center>
+					<nav>
+						<ul>
+						<li><a href="../index.html">Home</a> </li>
+						<li><a href="Skills.html">Skills</a> </li>
+						<li><a href="../about/About.html">About</a> </li>
+						<li><a href="../contact/contact.html">Contact</a> </li>
+						</ul>
+					</nav>
+				</center>
+			</header>
+			<hr>
+			<main id = "main">
+				<h2>My Skills</h2>
+				<ul>
+					<li>Software Development(Java)</li>
+            		<li>Web Development (html,css,javascript)</li>
+            		<li>Microsoft Office suite</li>
+            		<li>Connecting and Configuring Networks devices</li>
+				</ul>
+			</main>
+		</div>
+		<footer id="footer">My First Project</footer>
+	</body>
+</html>

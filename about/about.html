@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+	<head></head>
+	<header>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</header>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		html,body{
+			height: 100%;
+		}
+		#container{
+			min-height: 100%;
+		}
+		#main{
+			min-height: 100%;
+  			overflow: auto;
+  			padding-bottom: 50%;
+		}
+		nav{
+			height: 50px;
+			background-color: darkgray;
+		}
+		nav ul li{
+			list-style:none;
+			display:inline-block;
+			line-height:60px;
+		}
+		nav ul li a{
+			text-decoration: none;
+			padding-right: 15px;
+			font-size: 20px;
+			color:black;
+		}
+		nav ul li a:hover{
+			color:white;
+		}
+		h2{
+			text-align: center;
+			color:black;
+			font-size: 70px;
+		}
+		p{
+			font-size: 17px;
+		}
+		#paragraph{
+			padding-top: 20px;
+			width: 70%;
+			clear:right;
+			text-align: center;
+		}
+		#footer{
+			background-color: darkgray;
+			position: relative;
+			height:15px;
+			margin-top: -15px;
+			clear:both;
+  			text-align: center;
+  			font-size: 15px;
+		}
+		@media screen and (min-width:768px){
+			nav ul li a{
+				font-size: 40px;
+				padding-right: 50px;
+			}
+			#footer{
+				height:30px;
+				margin:-30px;
+				font-size: 30px;
+			}
+			h2{
+				font-size: 90px;
+			}
+			p{
+				font-size: 35px;
+			}
+		}
+		@media screen and (min-width:1000px){
+			nav ul li a{
+				font-size: 40px;
+				padding-right: 120px;
+			}
+		}
+		@media only screen and (min-width:1300px){
+			nav ul li a{
+				font-size: 40px;
+				padding-right: 250px;
+			}
+	</style>
+	<body>
+		<div id="container">
+			<center>
+				<nav>
+					<ul>
+					<li><a href="../index.html">Home</a> </li>
+					<li><a href="../skills/Skills.html">Skills</a> </li>
+					<li><a href="About.html">About</a> </li>
+					<li><a href="../contact/contact.html">Contact</a> </li>
+					</ul>
+				</nav>
+			</center>
+			<main>
+				<h2>About</h2>
+				<center>
+					<div id="paragraph">
+						<p>I am an ambitious male who is prepared to research, invistigate and solve every day problems using the powerful tool which is technology.<br><br> I am challenge driven, self motivated, goal oriented individual who is always looking forward to enhance my skills and knowledge both in ICT and in Software Development.<br> <br> I like to interact with other people and share ideas on how we can innovate, invent and enable efficient use of resources through the help of technology.</p>
+					</div>
+				</center>
+			</main>
+		</div>
+		<footer id = "footer">My First Project</footer>
+	</body>
+</html>

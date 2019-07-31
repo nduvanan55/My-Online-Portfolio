@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+ <html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Ncedo Nduvana</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		html,body{
+			height: 100%;
+		}
+		#container{
+		  min-height: 100%;
+		}
+		#main{
+			min-height: 100%;
+			overflow: auto;
+			padding-bottom: 50%;
+		}
+		nav{
+			height: 50px;
+			background-color: darkgray;
+		}
+		nav ul li{
+			list-style:none;
+			display:inline-block;
+			line-height:60px;
+		}
+		nav ul li a{
+			text-decoration: none;
+			padding-right: 15px;
+			font-size: 20px;
+			color:black;
+		}
+		nav ul li a:hover{
+			color:white;
+		}
+		.my-image{
+			padding-top: 50%;
+			width: 160px;
+			height: 368px;
+		}
+		.my-image img{
+			padding-top: 30%;
+			width: 160px;
+		}
+		.my-image img:hover{
+			padding-left: 40px;
+		}
+		.myheading{
+			padding-top:45%;
+			width: 50%;
+			float: right;
+		}
+		.myheading h1{
+			text-align: center;
+		  	font-family:Cambria;
+		  	font-style: italic;
+		  	font-size: 200%;
+		}
+		.myheading h1:hover{
+			color:rgb(46, 2, 2);
+		}
+		#footer{
+			background-color: darkgray;
+		  	position: relative;
+		  	height:15px;
+		  	margin-top: -15px;
+		  	clear:both;
+		  	text-align: center;
+		  	font-size: 15px;
+		}
+		@media only screen and (min-width:768px){
+			nav ul li a{
+				font-size: 40px;
+				padding-right: 50px;
+			}
+			ul li a{
+				text-decoration: none;
+				padding-right: 20px;
+			   	font-size: 40px;
+			}
+			.my-image{
+				padding-top: 20%;
+			  	width: 384px;
+			}
+			.my-image img{
+				padding-top: 20%;
+			  	width: 384px;
+			}
+			#footer{
+				height:30px;
+				margin:-30px;
+        		font-size: 30px;
+			}
+			.myheading h1{
+				text-align: center;
+				font-family:Cambria;
+			  	font-style: italic;
+			  	font-size: 400%;
+			}
+		}
+		@media only screen and (min-width:1000px){
+			.my-image img{
+				padding-top: 5%;
+  		  		width: 340px;
+			}
+			.myheading{
+				padding-top:10%;
+				padding-right: 60px;
+  		  		width: 50%;
+  		  		float: right;
+			}
+			.myheading h1{
+				font-size: 500%;
+			}
+			nav ul li a{
+				font-size: 40px;
+				padding-right: 120px;
+			}
+			@media only screen and (min-width:1300px){
+				nav ul li a{
+					font-size: 40px;
+					padding-right: 250px;
+				}
+	</style>
+	<body>
+		<div id="container">
+			<header>
+				<center>
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a> </li>
+							<li><a href="skills/Skills.html">Skills</a> </li>
+							<li><a href="about/About.html">About</a> </li>
+							<li><a href="contact/contact.html">Contact</a> </li>
+						</ul>
+					</nav>
+				</center>
+			</header>
+			<main id ="main2">
+				<di class ="my-image">
+					<img src="pictures/background.png" alt="Ncedo Nduvana">
+				</di>
+				<div class="myheading">
+					<h1>Hi I'm Ncedo Nduvana <br>and <br> I'm Software Developer </h1>
+				</div>
+			</main>
+		</div>
+		<footer id="footer">My First Project</footer>
+	</body>
+</html>
